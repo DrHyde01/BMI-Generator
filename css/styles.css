@@ -12,14 +12,6 @@ h1 {
     margin-bottom: 2rem;
 }
 
-strong {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #44ffb6;
-    text-shadow: #37D39A 2px 0 10px ;
-
-}
-
 input[type="range"] {
     accent-color: #37D39A;
 }
@@ -78,6 +70,38 @@ button:hover {
 
 .show-imc {
     text-align: center;
+}
+
+.imc-message {
+    display: none;
+}
+
+.imc-green {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #44ffb6;
+    text-shadow: #37D39A 2px 0 10px ;
+}
+
+.imc-blue {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3ABEF7;
+    text-shadow: #3ABEF7 2px 0 10px ;
+}
+
+.imc-yellow {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FABD22;
+    text-shadow: #FABD22 2px 0 10px ;
+}
+
+.imc-red {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F87272;
+    text-shadow: #F87272 2px 0 10px ;
 }
 
 
