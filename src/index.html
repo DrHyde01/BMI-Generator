@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+
+    <link href="../css/styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+    />
+
+    <title>Générateur d'IMC</title>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="calculator-box">
+        <h1>Calcule ton IMC</h1>
+        
+        <div class="calculator-weight">
+            <label for="weight">Mon poids</label>
+                <input class="input-weight" type="range" id="weight" min="20" max="200" value="60">
+            <p><span class="display-weight"></span> kg</p>
+        </div>
+
+        <div class="calculator-height">
+            <label for="height">Ma taille en cm</label>
+                <input class="input-height" type="range" id="height" min="80" max="230" value="170">
+            <p><span class="display-height"></span> cm</p>
+        </div>
+        
+        <div class="calculator-btn">
+            <button onclick="calculateImc()">Calculer</button>
+        </div>
+        
+        <div class="show-imc">
+            <p>Votre IMC est de</p> <strong class="imc"></strong>
+        </div>
+    </div>
+</div>
+
+<script src="../build/index.js"></script>
+
+</body>
+</html>
