@@ -16,6 +16,8 @@ strong {
     font-size: 3rem;
     font-weight: 700;
     color: #44ffb6;
+    text-shadow: #37D39A 2px 0 10px ;
+
 }
 
 input[type="range"] {
@@ -39,6 +41,12 @@ input[type="range"] {
     border-radius: 10px;
     background: #29323C;
     color: white;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 .calculator-weight, .calculator-height {
